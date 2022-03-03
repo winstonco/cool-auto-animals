@@ -29,5 +29,9 @@ Project failed to open
 This project is not valid
 ```
 
+### Workspace Configuration
+[cool-auto-animals/blob/main/docu.md][3]
+
 [1]: https://www.youtube.com/watch?v=qpXxcvS-g3g "How to use GitHub with Unity"
 [2]: https://www.youtube.com/watch?v=WH7qDUYHGK8&ab_channel=Bardent "HOW TO INSTALL & SETUP UNITY 🎮 | Getting Started With Unity | Unity Tutorial"
+[3]: https://github.com/winstonco/cool-auto-animals/blob/main/docu.md "Configuring Unity and Visual Studio"
