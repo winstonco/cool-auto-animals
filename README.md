@@ -14,7 +14,7 @@ Goal is to create a Super Auto Pets copy in order to become familiar with Unity 
 Watch [this video][1] by Brackeys for help.
 
 1. Log in to GitHub, fill in name and email (use the same email as GitHub).
-2. Clone this repo `https://github.com/winstonco/cool-auto-animals.git` in whatever folder you want the Unity project to be located. The folder you choose must be empty, or it will create a new empty folder with the contents. I recommend creating a new "Projects" or "Unity Projects" folder, or something similar, and cloning in that.
+2. Clone this repo `https://github.com/winstonco/cool-auto-animals.git` in whatever folder you want the Unity project to be located. A new repo folder named `cool-auto-animals` will be created. I recommend creating a new "Projects" or "Unity Projects" folder, or something similar, and cloning in that.
 
 ### Setting up Unity
 
