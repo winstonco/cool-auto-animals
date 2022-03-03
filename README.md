@@ -11,7 +11,7 @@ Goal is to create a Super Auto Pets copy in order to become familiar with Unity 
 
 ### Setting up GitHub Desktop
 
-Watch [this video][1] by Brackeys for help.
+Watch [this video][1] by Brackeys or [this video][2] by Bardent for help.
 
 1. Log in to GitHub, fill in name and email (use the same email as GitHub).
 2. Clone this repo `https://github.com/winstonco/cool-auto-animals.git` in whatever folder you want the Unity project to be located. A new repo folder named `cool-auto-animals` will be created. I recommend creating a new "Projects" or "Unity Projects" folder, or something similar, and cloning in that.
@@ -30,3 +30,4 @@ This project is not valid
 ```
 
 [1]: https://www.youtube.com/watch?v=qpXxcvS-g3g "How to use GitHub with Unity"
+[2]: https://www.youtube.com/watch?v=WH7qDUYHGK8&ab_channel=Bardent "HOW TO INSTALL & SETUP UNITY 🎮 | Getting Started With Unity | Unity Tutorial"
