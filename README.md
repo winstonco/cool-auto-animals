@@ -22,4 +22,11 @@ Watch [this video][1] by Brackeys for help.
 2. Install Unity editor `2020.3.30f1`.
 3. Click `Open`, `Add project from disk`, and choose the **project** folder *inside* the **repo** folder. If it has the `.git` folder, and `.gitignore` and `README.md` files around it, that's the correct one.
 
+If you get this error, you chose wrong.
+
+```
+Project failed to open
+This project is not valid
+```
+
 [1]: https://www.youtube.com/watch?v=qpXxcvS-g3g "How to use GitHub with Unity"
