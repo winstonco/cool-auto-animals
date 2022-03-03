@@ -7,7 +7,7 @@ Goal is to create a Super Auto Pets copy in order to become familiar with Unity 
 1. Make a Unity account.
 2. Install and run Unity Hub: https://unity.com/download
 4. Make a GitHub account.
-5. Install GitHub Desktop at their website: https://desktop.github.com/
+5. Install GitHub Desktop and run: https://desktop.github.com/
 
 ### Setting up GitHub Desktop
 
