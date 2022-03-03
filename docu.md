@@ -2,4 +2,4 @@
 
 #### Plugins
 
-- GhostDoc Community
+- None
