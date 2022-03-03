@@ -20,7 +20,7 @@ Watch [this video][1] by Brackeys or [this video][2] by Bardent for help.
 
 1. Activate a free personal license or a Unity Student license.
 2. Install Unity editor `2020.3.30f1`.
-3. Click `Open`, `Add project from disk`, and choose the **project** folder *inside* the **repo** folder. If it has the `.git` folder, and `.gitignore` and `README.md` files around it, that's the correct one.
+3. Click `Open`, `Add project from disk`, and choose the **project** folder *inside* the **repo** folder. If it has the `.git` folder, `.gitignore` and `README.md` files, etc. around it, that's the correct one.
 
 If you get this error, you chose wrong.
 
