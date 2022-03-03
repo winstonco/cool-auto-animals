@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pet
+public class Pet : MonoBehaviour
 {
     private int _attack;
     private int _health;

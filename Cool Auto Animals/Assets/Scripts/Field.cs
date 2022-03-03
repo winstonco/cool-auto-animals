@@ -5,13 +5,13 @@ using UnityEngine;
 public class Field : MonoBehaviour
 {
     private static int s_maxSize = 5;
-    private FriendlyPet[] _myPets = new FriendlyPet[s_maxSize];
+    private FieldPet[] _myPets = new FieldPet[s_maxSize];
     private int size;
 
     /// <summary>
     /// Returns the array of pets on your team.
     /// </summary>
-    public FriendlyPet[] MyPets
+    public FieldPet[] MyPets
     {
         get => _myPets;
     }
@@ -29,7 +29,7 @@ public class Field : MonoBehaviour
     /// Adds a pet to the front of the team.
     /// </summary>
     /// <param name="pet">the pet to add</param>
-    public void AddPet(FriendlyPet pet)
+    public void AddPet(FieldPet pet)
     {
         AddPet(pet, size);
         size++;
@@ -40,7 +40,7 @@ public class Field : MonoBehaviour
     /// </summary>
     /// <param name="pet">the pet to add</param>
     /// <param name="index">the index</param>
-    public void AddPet(FriendlyPet pet, int index)
+    public void AddPet(FieldPet pet, int index)
     {
         // Check that the pet is not null
         if (pet == null)
