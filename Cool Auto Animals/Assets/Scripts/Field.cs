@@ -83,12 +83,7 @@ public class Field : MonoBehaviour, IBench, IShop
         return null;
     }
 
-    /// <summary>
-    /// Shifts pets up to first available spot to the left. If none, shifts to the right. If none, returns false.
-    /// </summary>
-    /// <param name="start">the index of pet to move</param>
-    /// <returns>true if the move was successful and false if not</returns>
-    private bool MovePet(int start)
+    public bool MovePet(int start)
     {
         // First check if can move left
         // From start, check positions to the left to find the first empty space
