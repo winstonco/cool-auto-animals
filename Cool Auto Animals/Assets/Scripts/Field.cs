@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Field : MonoBehaviour
+public class Field : MonoBehaviour, IBench, IShop
 {
     private static int s_maxSize = 5;
     private FieldPet[] _myPets = new FieldPet[s_maxSize];
@@ -25,21 +25,12 @@ public class Field : MonoBehaviour
         size = 0;
     }
 
-    /// <summary>
-    /// Adds a pet to the front of the team.
-    /// </summary>
-    /// <param name="pet">the pet to add</param>
     public void AddPet(FieldPet pet)
     {
         AddPet(pet, size);
         size++;
     }
 
-    /// <summary>
-    /// Adds a pet at a given index.
-    /// </summary>
-    /// <param name="pet">the pet to add</param>
-    /// <param name="index">the index</param>
     public void AddPet(FieldPet pet, int index)
     {
         // Check that the pet is not null
@@ -78,6 +69,18 @@ public class Field : MonoBehaviour
         // Add in new pet and increment size
         _myPets[index] = pet;
         size++;
+    }
+
+    public FieldPet SellPet(int index)
+    {
+        // Check that the space on the bench is not empty
+        // If it is, throw an exception
+        // Save the sold pet
+        // Remove pet from array
+        // Trigger sell event
+        // Increase gold by pet's level
+        // Return saved pet
+        return null;
     }
 
     /// <summary>
@@ -124,5 +127,30 @@ public class Field : MonoBehaviour
 
         // If no empty spaces found, return false
         return false;
+    }
+
+    public Pet BuyPet(int i)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public Item BuyItem()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Refresh()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void FreezePet(int i)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void FreezeItem(int i)
+    {
+        throw new System.NotImplementedException();
     }
 }

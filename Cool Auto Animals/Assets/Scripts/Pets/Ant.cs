@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ant : PetBuilder, IFriendlyPet
+public class Ant : PetBuilder
 {
     // This pet's Prefab
     public GameObject Prefab;
