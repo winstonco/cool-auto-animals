@@ -16,9 +16,4 @@ public class ShopPet : Pet, IPlayerUsable
     {
         throw new System.NotImplementedException();
     }
-
-    public void Freeze()
-    {
-        throw new System.NotImplementedException();
-    }
 }
