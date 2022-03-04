@@ -7,19 +7,6 @@ public abstract class PetBuilder : FieldPet
     private GameObject spawnedPet;
     private FieldPet petScript;
 
-    public override GameObject SpawnPet()
-    {
-        /*
-        spawnedPet = Instantiate(gameObject);
-        petScript = GetComponent<Ant>();
-        return spawnedPet;*/
-        return null;
-    }
-
-    void Start()
-    {
-        
-    }
 
     void Awake()
     {
