@@ -16,9 +16,4 @@ public class ShopItem : Item, IPlayerUsable
     {
         throw new System.NotImplementedException();
     }
-
-    public void Freeze()
-    {
-        throw new System.NotImplementedException();
-    }
 }

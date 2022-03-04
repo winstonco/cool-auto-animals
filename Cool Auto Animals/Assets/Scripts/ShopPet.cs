@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopPet : MonoBehaviour, IPlayerUsable
+public class ShopPet : Pet, IPlayerUsable
 {
     /// <summary>
     /// Default constructor. Creates a new ShopPet.
@@ -13,11 +13,6 @@ public class ShopPet : MonoBehaviour, IPlayerUsable
     }
 
     public void DragWithMouse()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void Freeze()
     {
         throw new System.NotImplementedException();
     }

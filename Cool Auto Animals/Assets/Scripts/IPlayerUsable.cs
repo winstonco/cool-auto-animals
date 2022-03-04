@@ -8,5 +8,4 @@ using UnityEngine;
 public interface IPlayerUsable
 {
     void DragWithMouse();
-    void Freeze();
 }

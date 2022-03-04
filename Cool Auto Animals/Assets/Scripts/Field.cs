@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Field : MonoBehaviour
+public class Field : MonoBehaviour, IBench, IShop
 {
     private static int s_maxSize = 5;
-    private FriendlyPet[] _myPets = new FriendlyPet[s_maxSize];
+    private FieldPet[] _myPets = new FieldPet[s_maxSize];
     private int size;
 
     /// <summary>
     /// Returns the array of pets on your team.
     /// </summary>
-    public FriendlyPet[] MyPets
+    public FieldPet[] MyPets
     {
         get => _myPets;
     }
@@ -25,22 +25,13 @@ public class Field : MonoBehaviour
         size = 0;
     }
 
-    /// <summary>
-    /// Adds a pet to the front of the team.
-    /// </summary>
-    /// <param name="pet">the pet to add</param>
-    public void AddPet(FriendlyPet pet)
+    public void AddPet(FieldPet pet)
     {
         AddPet(pet, size);
         size++;
     }
 
-    /// <summary>
-    /// Adds a pet at a given index.
-    /// </summary>
-    /// <param name="pet">the pet to add</param>
-    /// <param name="index">the index</param>
-    public void AddPet(FriendlyPet pet, int index)
+    public void AddPet(FieldPet pet, int index)
     {
         // Check that the pet is not null
         if (pet == null)
@@ -80,12 +71,19 @@ public class Field : MonoBehaviour
         size++;
     }
 
-    /// <summary>
-    /// Shifts pets up to first available spot to the left. If none, shifts to the right. If none, returns false.
-    /// </summary>
-    /// <param name="start">the index of pet to move</param>
-    /// <returns>true if the move was successful and false if not</returns>
-    private bool MovePet(int start)
+    public FieldPet SellPet(int index)
+    {
+        // Check that the space on the bench is not empty
+        // If it is, throw an exception
+        // Save the sold pet
+        // Remove pet from array
+        // Trigger sell event
+        // Increase gold by pet's level
+        // Return saved pet
+        return null;
+    }
+
+    public bool MovePet(int start)
     {
         // First check if can move left
         // From start, check positions to the left to find the first empty space
@@ -124,5 +122,30 @@ public class Field : MonoBehaviour
 
         // If no empty spaces found, return false
         return false;
+    }
+
+    public Pet BuyPet(int i)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public Item BuyItem()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Refresh()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void FreezePet(int i)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void FreezeItem(int i)
+    {
+        throw new System.NotImplementedException();
     }
 }
