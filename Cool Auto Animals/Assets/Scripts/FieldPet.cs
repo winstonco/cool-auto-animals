@@ -84,6 +84,11 @@ public abstract class FieldPet : Pet
     public abstract void UseAbility();
 
     /// <summary>
+    /// Spawns the pet as a game object.
+    /// </summary>
+    public abstract GameObject SpawnPet();
+
+    /// <summary>
     /// Deals damage equal to this pet's attack to the target pet.
     /// </summary>
     /// <param name="target">The target pet</param>

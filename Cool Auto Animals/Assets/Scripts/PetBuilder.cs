@@ -2,35 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class PetBuilder : FieldPet, IFriendlyPet
+public abstract class PetBuilder : FieldPet
 {
-    private Field field;
-    //public GameObject PetPrefab;
+    private GameObject spawnedPet;
+    private FieldPet petScript;
 
-    // Start is called before the first frame update
+    public override GameObject SpawnPet()
+    {
+        /*
+        spawnedPet = Instantiate(gameObject);
+        petScript = GetComponent<Ant>();
+        return spawnedPet;*/
+        return null;
+    }
+
     void Start()
     {
-        field = GameObject.Find("Friendly Field").GetComponent<Field>();
+        
+    }
+
+    void Awake()
+    {
+        gameObject.transform.position = new Vector2(Random.Range(-10, 10), Random.Range(-5, 5));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            SpawnPet();
-        }
-    }
-
-    public abstract void SpawnPet();
-
-    public void AddFriendlyPet()
-    {
-        field.AddPet(this);
-    }
-
-    public void AddFriendlyPet(int index)
-    {
-        field.AddPet(this, index);
+        gameObject.transform.Translate(Vector3.right * Time.deltaTime * 1);
+        Debug.Log("updating");
     }
 }

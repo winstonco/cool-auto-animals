@@ -17,7 +17,7 @@ public interface IShop
     Item BuyItem();
 
     /// <summary>
-    /// Refresh the shop with new pets and items. Costs 2 gold.
+    /// Refresh the shop with new random pets and items. Costs 2 gold.
     /// </summary>
     void Refresh();
 

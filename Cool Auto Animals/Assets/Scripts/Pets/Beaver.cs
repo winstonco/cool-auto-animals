@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ant : PetBuilder
+public class Beaver : PetBuilder
 {
     public override void UseAbility()
     {

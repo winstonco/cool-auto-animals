@@ -8,11 +8,11 @@ public interface IFriendlyPet
     /// <summary>
     /// Adds a pet to the field at the front.
     /// </summary>
-    void AddFriendlyPet();
+    //void AddFriendlyPet();
 
     /// <summary>
     /// Adds a pet to the field at the index.
     /// </summary>
     /// <param name="index">The index</param>
-    void AddFriendlyPet(int index);
+    //void AddFriendlyPet(int index);
 }

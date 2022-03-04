@@ -1,0 +1,59 @@
+﻿1,Ant,2,1,Faint: Give a random friend (+2/+1)/(+4/+2)/(+6/+3).
+1,Beaver,2,2,Sell: Give 2 random friends +1/+2/+3 HP.
+1,Cricket,1,2,Faint: Summon a (1/1)/(2/2)/(3/3) Zombie Cricket.
+1,Duck,1,3,Sell: Give shop pets +1/+2/+3 HP.
+1,Fish,2,3,Level-up: Give all friends (+1/+1)/(+2/+2).
+1,Horse,2,1,Friend summoned: Give it +1/+2/+3 ATK until the end of battle.
+1,Mosquito,2,2,Start of battle: Deal 1 dmg to 1/2/3 random enemies.
+1,Otter,1,2,Buy: Give a random friend (+1/+1)/(+2/+2)/(+3/+3).
+1,Pig,3,1,Sell: Gain 1/2/3 gold.
+1,Sloth,1,1,Moral support
+2,Crab,3,3,Buy: Copy the Health of the healthiest friend.
+2,Dodo,2,3,Start of battle: Give friend ahead 50%/100%/150% ATK.
+2,Elephant,3,5,Before Attack: Deal 1 damage to 1/2/3 friends behind.
+2,Flamingo,3,1,Faint: Give the two friends behind (+1/+1)/(+2/+2)/(+3/+3).
+2,Hedgehog,3,2,Faint: Deal 2/4/6 dmg to all.
+2,Peacock,2,5,Hurt: Gain 50% of ATK 1/2/3 times.
+2,Rat,4,5,Faint: Summon 1/2/3 1/1 Dirty Rats up front for the opponent.
+2,Shrimp,2,3,Friend sold: Give a random friend +1/+2/+3 HP.
+2,Spider,2,2,Faint: Summon a lvl 1/2/3 tier 3 pet as 2/2.
+2,Swan,1,3,Start of turn: Gain 1/2/3 gold.
+3,Badger,5,4,Faint: Deal 1x/2x/3x ATK to adjacent pets.
+3,Blowfish,3,5,Hurt: Deal 2/4/6 dmg to a random enemy.
+3,Camel,2,5,Hurt: Give friend behind (+1/+2)/(+2/+4)/(+3/+6).
+3,Dog,2,2,Friend summoned: Gain +1/+2/+3 ATK or HP.
+3,Giraffe,2,5,End turn: Give 1/2/3 friends ahead +1/+1.
+3,Kangaroo,1,2,Friend ahead attacks: Gain (+2/+2)/(+4/+4)/(+6/+6).
+3,Ox,1,4,Friend ahead faints: Gain Melon Armor and +2/+4/+6 ATK.
+3,Rabbit,3,2,Friend eats shop food: Give it +1/+2/+3 HP.
+3,Sheep,2,2,Faint: Summon two (2/2)/(4/4)/(6/6) Rams.
+3,Snail,2,2,"Buy: If you lost last battle, give all friends (+1/+1)/(+2/+2)/(+3/+3)."
+3,Turtle,1,2,Faint: Give 1/2/3 friends behind Melon Armor.
+4,Bison,6,6,"End turn: If there's at least one level 3 friend, gain (+2/+2)/(+4/+4)/(+6/+6)."
+4,Deer,1,1,Faint: Summon a (5/5)/(10/10)/(15/15) Bus with Splash Attack.
+4,Dolphin,4,6,Start of battle: Deal 5/10/15 dmg to the lowest health enemy.
+4,Hippo,4,7,Knockout: Gain (+2/+2)/(+4/+4)/(+6/+6).
+4,Parrot,5,3,End turn: Copy ability from friend ahead as lvl 1/2/3 until the end of battle.
+4,Penguin,1,2,End turn: Give other lvl 2 and 3 friends (+1/+1)/(+2/+2)/(+3/+3).
+4,Rooster,5,3,Faint: Summon 1/2/3 chicks with 1 HP and half ATK.
+4,Skunk,3,6,Start of battle: Reduce HP of the highest enemy by 33%/66%/99%.
+4,Squirrel,2,5,Start of turn: Discount shop food by 1/2/3 gold.
+4,Whale,3,8,Start of battle: Swallow friend ahead and release it as lvl 1/2/3 after fainting.
+4,Worm,2,2,Eats shop food: Gain (+1/+1)/(+2/+2)/(+3/+3).
+5,Cow,4,6,Buy: Replace food shop with free milk that gives (+1/+2)/(+2/+4)/(+3/+6).
+5,Crocodile,8,4,Start of battle: Deal 8/16/24 damage to the last enemy.
+5,Monkey,1,2,End turn: Give right-most friend (+2/+3)/(+4/+6)/(+6/+9).
+5,Rhino,5,8,Knockout: Deal 4/8/12 dmg to first enemy.
+5,Scorpion,1,1,No ability; has innate Poison Attack.
+5,Seal,3,8,Eats shop food: Give 2 random friends (+1/+1)/(+2/+2)/(+3/+3).
+5,Shark,4,4,Friend faints: Gain (+2/+1)/(+4/+2)/(+6/+3).
+5,Turkey,3,4,Friend summoned: Give it (+3/+3)/(+6/+6)/(+9/+9).
+6,Boar,8,6,Before attack: Gain (+2/+2)/(+4/+4)/(+6/+6).
+6,Cat,4,5,Multiplies the HP and ATK effect of food by 2/3/4.
+6,Dragon,6,8,Buy tier 1 pet: Give all pets except itself (+1/+1)/(+2/+2)/(+3/+3).
+6,Fly,5,5,Friend faints: Summon a (5/5)/(10/10)/(15/15) Zombie Fly in its place (thrice per battle).
+6,Gorilla,6,9,Hurt: Gain Coconut Shield (1/2/3 times per battle).
+6,Leopard,10,4,Start of battle: Deal 50% ATK dmg to 1/2/3 random enemies.
+6,Mammoth,3,10,Faint: Give all friends (+2/+2)/(+4/+4)/(+6/+6).
+6,Snake,6,6,Friend ahead attacks: Deal 5/10/15 damage to a random enemy.
+6,Tiger,4,3,Friend ahead repeats their ability in battle as if they were level 1/2/3.
