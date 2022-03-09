@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Field : MonoBehaviour, IBench, IShop
 {
+    // Variable purely for if something was dropped in the child slots
+    private bool droppedInSlot = false;
+
     private static int s_maxTeamSize = 5;
     private static int s_maxShopSizePets;
     private static int s_maxShopSizeFood;
@@ -19,6 +22,12 @@ public class Field : MonoBehaviour, IBench, IShop
     public FieldPet[] MyPets
     {
         get => _myPets;
+    }
+
+    public bool DroppedInSlot
+    {
+        get => droppedInSlot;
+        set => droppedInSlot = value;
     }
 
     private void Start()
