@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopPet : Pet
+public class ShopPet : Pet, IPlayerUsable
 {
     /// <summary>
     /// Default constructor. Creates a new ShopPet.
@@ -10,5 +10,10 @@ public class ShopPet : Pet
     public ShopPet()
     {
 
+    }
+
+    public void DragWithMouse()
+    {
+        throw new System.NotImplementedException();
     }
 }
